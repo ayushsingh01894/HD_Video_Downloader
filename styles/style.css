@@ -1,0 +1,34 @@
+/* HD Video Downloader Studio - custom theme */
+
+.stApp {
+    background-color: #0e1117;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #12151c;
+    border-right: 1px solid #262a35;
+}
+
+div[data-testid="stButton"] button {
+    border-radius: 10px;
+    font-weight: 600;
+    transition: transform 0.05s ease-in-out;
+}
+
+div[data-testid="stButton"] button:active {
+    transform: scale(0.98);
+}
+
+div[data-testid="stExpander"] {
+    border-radius: 10px;
+    border: 1px solid #262a35;
+}
+
+div[data-testid="stDataFrame"] {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+hr {
+    border-color: #262a35;
+}
